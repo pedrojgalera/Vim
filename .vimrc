@@ -12,6 +12,9 @@
 " Search highlighting
 :set hlsearch
 
+" Set swap storage directory
+:set directory^=$HOME/.vim/swap//
+
 " File detection for HQL
 autocmd BufNewFile,BufRead *.hql set syntax=sql
 
