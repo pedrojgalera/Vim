@@ -1,4 +1,2 @@
-*
-!.gitignore
-!.vimrc
-!.vim/
+# Exclude .netrwhist
+*.netrwhist*
